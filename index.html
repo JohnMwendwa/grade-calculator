@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grade calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-500 my-60 flex items-center justify-center shadow-lg rounded-lg">
+    <div class=" bg-green-500 flex-items-center justify-center rounded-lg p-12">
+        <p class="bg-red-500 mb-4 font-bold text-2x1 text-center">Grade Calculator</p>
+        <div>
+            <input  id="inputGrade" type="number" class="rounded border font-bold p-4 mb-6" placeholder="enter your marks">
+        </div>
+        <div>
+        <p id="errorMessage" class="bg-white font-bold mb-4"></p>
+       </div>
+        <div class="mb-10">
+        <button id="calculator" class="bg-blue-700 hover:bg-blue-900 p-2 rounded-lg font-bold">Calculate</button>
+        <button id="reset" class="bg-red-600 hover:bg-red-900 p-2 rounded-lg">Reset</button>
+        
+    </div>
+    <div>
+    <p id="result" class="bg-red-800 font-bold mt-2"></p>
+    </div>
+
+
+    </div>
+    <script src="/grade_calculator.js"></script>
+</body>
+</html>
